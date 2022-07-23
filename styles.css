@@ -1,0 +1,113 @@
+:root {
+    --color-white: #fff;
+    --color-dark-blue: #05051b;
+    --color-yellow: #ffea00;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #a8edea, #fed6e3);
+    color: var(--color-dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2.5em;
+    font-size: 1rem;
+
+
+}
+
+.container {
+    background-color: var(--color-white);
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.header {
+    text-align: center;
+    margin: 1.5em;
+    padding: 0.5em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    color: var(--color-dark-blue);
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3rem;
+    color: var(--color-dark-blue);
+}
+
+.form-group,
+.form-control {
+    margin: 0 0 1em 0;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5em;
+}
+
+#name-label,
+#email-label,
+#number-label {
+    color: var(--color-yellow);
+    font-weight: 700;
+    margin-bottom: 3.5em;
+}
+
+.radio-text,
+.checkbox-text {
+    display: block;
+    margin-right: 0.5em;
+}
+
+.input-radio,
+.input-checkbox {
+    margin-right: 1em;
+}
+
+.recommend {
+    margin: 0.5em 0;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+.input-textarea {
+    width: 100%;
+    padding: 0.5em;
+    height: 120px;
+}
+
+.btn {
+    width: 100%;
+    font-family: inherit;
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s, ease-in-out, 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--color-dark-blue);
+    opacity: 0.8;
+}
